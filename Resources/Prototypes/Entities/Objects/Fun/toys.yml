@@ -1580,7 +1580,7 @@
   parent: BasePlushie
   id: Plushiewyatt
   name: HoS Plushie
-  description: A small stuffed doll of a moff Head Of Security, Wyatt did you expect?
+  description: A small stuffed doll of a moff Head Of Security, Includes Minature Stun Baton (With Minature Shocks), Wyatt did you expect?
   components:
   - type: Item
     size: Normal
