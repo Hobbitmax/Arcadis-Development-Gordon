@@ -1,0 +1,166 @@
+- type: antag
+  id: Traitor
+  name: roles-antag-syndicate-agent-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-syndicate-agent-objective
+  guides: [ Traitors ]
+
+- type: antag
+  id: TraitorSleeper
+  name: roles-antag-syndicate-agent-sleeper-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-syndicate-agent-sleeper-objective
+  guides: [ Traitors ]
+
+# Syndicate Operative Outfit - Monkey
+- type: startingGear
+  id: SyndicateOperativeGearMonkey
+  equipment:
+    head: ClothingHeadHatOutlawHat
+    jumpsuit: ClothingUniformJumpsuitOperative
+    mask: CigaretteSyndicate
+
+# Syndicate Operative Outfit - Barratry
+- type: startingGear
+  id: SyndicateOperativeGearExtremelyBasic
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+    back: ClothingBackpackSyndicate
+    shoes: ClothingShoesBootsCombatFilled
+    gloves: ClothingHandsGlovesColorBlack
+  storage:
+    back:
+    - WeaponPistolViper
+    - PinpointerSyndicateNuclear
+    - DeathAcidifierImplanter
+
+- type: startingGear
+  id: SyndicateOperativeClothing
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+    back: ClothingBackpackSyndicate
+    shoes: ClothingShoesBootsSyndieFilled
+    gloves: ClothingHandsGlovesColorBlack
+
+- type: startingGear
+  id: SyndicateReinforcementMedic
+  parent: SyndicateOperativeClothing
+  equipment:
+    pocket1: WeaponPistolViper
+  inhand:
+    - MedkitCombatFilled
+
+- type: startingGear
+  id: SyndicateReinforcementSpy
+  parent: SyndicateOperativeClothing
+  equipment:
+    id: AgentIDCard
+    mask: ClothingMaskGasVoiceChameleon
+    pocket1: WeaponPistolViper
+
+- type: startingGear
+  id: SyndicateReinforcementThief
+  parent: SyndicateOperativeClothing
+  equipment:
+    pocket1: WeaponPistolViper
+  inhand:
+    - ToolboxSyndicateFilled
+  storage:
+    back:
+    - SyndicateJawsOfLife
+
+#Syndicate Operative Outfit - Basic
+- type: startingGear
+  id: SyndicateOperativeGearBasic
+  parent: SyndicateOperativeGearExtremelyBasic
+  equipment:
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    pocket1: BaseUplinkRadio40TC
+    id: SyndiPDA
+
+- type: startingGear
+  id: Towegoutfit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNanotrasen
+    back: ClothingBackpackHoldingNTPD
+    shoes: ClothingShoesBootsCombatFilled
+    neck: ClothingNeckCloakToweg
+    ears: ClothingHeadsetNTPD
+    id: NTPDPDA
+  storage:
+    back:
+    - BoxSurvivalSyndicate
+    - WeaponNTPDPulsePistol
+
+- type: startingGear
+  id: mercoutfit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary
+    back: ClothingBackpackMerc
+    mask: ClothingMaskGasMerc
+    ears: ClothingHeadsetMerc
+    gloves: ClothingHandsMercGlovesCombat
+    shoes: ClothingShoesBootsMercFilled
+    id: MercPDA
+  storage:
+    back:
+    - BoxSurvivalEngineering
+    - BoxFlashbang
+    - DeathAcidifierImplanter
+
+- type: startingGear
+  id: modmercoutfit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary
+    back: ClothingBackpackMerc
+    mask: ClothingMaskGasMerc
+    ears: ClothingHeadsetMerc
+    gloves: ClothingHandsMercGlovesCombat
+    shoes: ClothingShoesBootsMercFilled
+    id: MercPDA
+  inhand:
+    - SurvivalKnife
+  storage:
+    back:
+    - BoxSurvivalEngineering
+
+- type: startingGear
+  id: METAoutfit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+    back: ClothingBackpackHolding
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitMETA
+    suitstorage: AirTankFilled
+    id: MercPDAmeta
+    ears: ClothingHeadsetMETA
+    belt: ClothingBeltSecurityFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
+    pocket2: FlashlightSeclite
+  storage:
+    back:
+    - BoxSurvivalEngineering
+    - WeaponDisabler
+    - MedicatedSuture
+    - RegenerativeMesh
+    - BoxZiptie
+    - CrowbarRed
+    - MagazineMagnumSubMachineGunPiercing
+    - MagazineMagnumSubMachineGunPiercing
+    - MagazineMagnumSubMachineGunPiercing
+    - MagazineMagnumSubMachineGunPiercing
+    - MagazineMagnumSubMachineGunPiercing
+    - MagazineMagnumSubMachineGunPiercing
+    - WeaponSubMachineGunVector
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - SyringeEphedrine
+    - BruteAutoInjector
+    - BurnAutoInjector
